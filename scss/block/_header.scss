@@ -87,7 +87,7 @@
         display: flex;
         gap: 10px;
         &-item {            
-            width: 150px;
+            width: 250px;
             height: 50px;
             display: flex;
             align-items: center;
@@ -95,6 +95,7 @@
             background-color: $textColorLogo;
             border-radius: 20px;
             transition: all .4s;
+            padding: 10px;
             cursor: pointer;
             &:hover {
                 background-color: $textColorHover;
